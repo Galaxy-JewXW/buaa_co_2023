@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">mips.v</arg>&quot; line <arg fmt="%d" index="2">176</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">clear</arg>&apos; of instance &apos;<arg fmt="%s" index="4">Dreg</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="error" file="Xst" num="870" delta="new" >&quot;<arg fmt="%s" index="1">HLU.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Can not simplify operator <arg fmt="%s" index="3">DIV</arg>.
+</msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5v0/mips.xst" -ofn "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5v0/mips.syr" 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/CPU.v" Line 244: Port <arg fmt="%s" index="1">clear</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/CPU.v" Line 275: Port <arg fmt="%s" index="1">regWrite</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/CPU.v" Line 375: Port <arg fmt="%s" index="1">regWrite</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/CPU.v" Line 482: Port <arg fmt="%s" index="1">regWrite</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/CPU.v" Line 601: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/SU.v" Line 21: Port <arg fmt="%s" index="1">regWrite</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/SU.v" Line 64: Port <arg fmt="%s" index="1">regWrite</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"H:/BUAA_workshop/verilog/CPU-pipline-P7/SU.v" Line 98: Port <arg fmt="%s" index="1">regWrite</arg> is not connected to this instance
+</msg>
+
+</messages>
+

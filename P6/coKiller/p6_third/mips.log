@@ -1,0 +1,44 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -nodebug -prj mips.prj -o mips.exe generated_mips_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 32
+Turning on mult-threading, number of parallel sub-compilation jobs: 64 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/alu.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/cmp.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/ctrl.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/dm.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/ext.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/ex_me.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/generated_mips_test.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/grf.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/id_ex.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/ifu.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/if_id.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/load_ext.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/mdu.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/me_wb.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/mips.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/mips_tb.v" into library work
+Analyzing Verilog file "D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/sfu.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ctrl
+Compiling module sfu
+Compiling module ifu
+Compiling module if_id
+Compiling module grf
+Compiling module ext
+Compiling module cmp
+Compiling module id_ex
+Compiling module alu
+Compiling module mdu
+Compiling module ex_me
+Compiling module load_ext
+Compiling module me_wb
+Compiling module mips
+Compiling module generated_mips_test
+Time Resolution for simulation is 1ps.
+Compiled 15 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 34544 KB
+Fuse CPU Usage: 31 ms

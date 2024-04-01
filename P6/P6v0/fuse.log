@@ -1,0 +1,56 @@
+Running: D:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips_txt_isim_beh.exe -prj D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 32
+Turning on mult-threading, number of parallel sub-compilation jobs: 64 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/controller.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/toRAM.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/stall_handle.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/npc.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mw.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mdu.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/ifu.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/grf.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/fromRAM.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/fd.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/ext.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/em.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/de.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/cmp.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/alu.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips_tb.v" into library work
+Analyzing Verilog file "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips.v" Line 84: Port instr is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips.v" Line 123: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips.v" Line 219: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips.v" Line 311: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips.v" Line 376: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/stall_handle.v" Line 53: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/stall_handle.v" Line 91: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/stall_handle.v" Line 122: Port rd is not connected to this instance
+Completed static elaboration
+Compiling module controller
+Compiling module stall_handle
+Compiling module ifu
+Compiling module fd
+Compiling module grf
+Compiling module cmp
+Compiling module npc
+Compiling module ext
+Compiling module de
+Compiling module alu
+Compiling module mdu
+Compiling module em
+Compiling module toRAM
+Compiling module fromRAM
+Compiling module mw
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 18 Verilog Units
+Built simulation executable D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6v0/mips_txt_isim_beh.exe
+Fuse Memory Usage: 32776 KB
+Fuse CPU Usage: 46 ms

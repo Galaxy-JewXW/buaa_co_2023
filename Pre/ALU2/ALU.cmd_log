@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/ALU2/ALU.xst" -ofn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/ALU2/ALU.syr" 
+xst -intstyle ise -ifn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/ALU2/ALU.xst" -ofn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/ALU2/ALU.syr" 
+xst -intstyle ise -ifn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/ALU2/ALU.xst" -ofn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/ALU2/ALU.syr" 

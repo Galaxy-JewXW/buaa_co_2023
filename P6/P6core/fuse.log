@@ -1,0 +1,56 @@
+Running: D:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips_txt_isim_beh.exe -prj D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 32
+Turning on mult-threading, number of parallel sub-compilation jobs: 64 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/control.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/M_DE.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/M_BE.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/MW_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/F_PC.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/FD_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/E_MDU.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/E_ALU.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/EM_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/D_NPC.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/D_GRF.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/D_EXT.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/D_CMP.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/DE_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips_tb.v" into library work
+Analyzing Verilog file "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 146: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 248: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 360: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 380: Port DMWrEn is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 431: Port rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" Line 19: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" Line 51: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" Line 77: Port b_jump is not connected to this instance
+Completed static elaboration
+Compiling module control
+Compiling module stall
+Compiling module F_PC
+Compiling module FD_REG
+Compiling module D_GRF
+Compiling module D_EXT
+Compiling module D_CMP
+Compiling module D_NPC
+Compiling module DE_REG
+Compiling module E_ALU
+Compiling module E_MDU
+Compiling module EM_REG
+Compiling module M_BE
+Compiling module M_DE
+Compiling module MW_REG
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 18 Verilog Units
+Built simulation executable D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips_txt_isim_beh.exe
+Fuse Memory Usage: 33560 KB
+Fuse CPU Usage: 61 ms

@@ -1,0 +1,1 @@
+compile.cmd&&verdi.cmd&&run.cmd&&handler.cmd&&isim.cmd&&diff.cmd

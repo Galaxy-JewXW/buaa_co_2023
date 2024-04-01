@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/controller.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/controller.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_cmp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_cmp.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_cmp.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_ext.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_ext.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_ext.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_npc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_npc.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/d_npc.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/e_alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/e_alu.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/e_alu.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/e_mdu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/e_mdu.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/e_mdu.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/m_cp0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/m_cp0.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/m_cp0.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/m_dm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/m_dm.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/m_dm.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips_bridge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips_bridge.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips_bridge.v&quot; line 22
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips_cpu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips_cpu.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/zlr/cpu/mips_cpu.v&quot; line 22
+</arg>
+</msg>
+
+</messages>
+

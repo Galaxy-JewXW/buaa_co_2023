@@ -1,0 +1,5 @@
+set -tmpdir "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/P1_L1_FloatType/xst/projnav.tmp"
+set -xsthdpdir "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/P1_L1_FloatType/xst"
+elaborate
+-ifn FloatType.prj
+-ifmt mixed

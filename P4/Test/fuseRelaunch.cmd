@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/tb_mips_isim_beh.exe" -prj "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/tb_mips_beh.prj" "work.tb_mips" "work.glbl" 

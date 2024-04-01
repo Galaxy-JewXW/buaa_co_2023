@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"ctrl.v" Line 37: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">ctrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"ifu.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">ifu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"if_id.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">if_id</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"grf.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">grf</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"ext.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">ext</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"cmp.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">cmp</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"id_ex.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">id_ex</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"alu.v" Line 13: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">alu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"ex_me.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">ex_me</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"dm.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">dm</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"me_wb.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">me_wb</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"mdu.v" Line 12: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">mdu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"load_ext.v" Line 6: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">load_ext</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/ctrl.v" Line 37: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">ctrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/sfu.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">sfu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/sfu.v" Line 24: Port <arg fmt="%s" index="1">Ori</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/sfu.v" Line 29: Port <arg fmt="%s" index="1">Ori</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/sfu.v" Line 34: Port <arg fmt="%s" index="1">Ori</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/sfu.v" Line 39: Port <arg fmt="%s" index="1">Ori</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/if_id.v" Line 21: Port <arg fmt="%s" index="1">And</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/id_ex.v" Line 53: Port <arg fmt="%s" index="1">Bne</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/ex_me.v" Line 48: Port <arg fmt="%s" index="1">And</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:\BUAA_Undergraduate\23-24autumn\CO_hw\P6\coKiller\p6_third/me_wb.v" Line 53: Port <arg fmt="%s" index="1">Bne</arg> is not connected to this instance
+</msg>
+
+</messages>
+

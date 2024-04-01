@@ -1,0 +1,174 @@
+{
+    "forward_valid_ratio": 0.9702970297029703,
+    "forward_count": 12,
+    "stall_count": 1,
+    "forward_coverage": 0.11214953271028037,
+    "stall_coverage": 0.06666666666666667,
+    "grade": {
+        "forward": {
+            "average": 19.54022988505747,
+            "warning": [
+                "cal_rr <~~ cal_rr",
+                "cal_rr <~~ load",
+                "cal_rr <~~ lui",
+                "cal_rr <~~ jal",
+                "cal_ri <~~ cal_rr",
+                "cal_ri <~~ jal",
+                "br_r2 <~~ cal_rr",
+                "br_r2 <~~ load",
+                "br_r2 <~~ lui",
+                "br_r2 <~~ jal",
+                "load <~~ cal_rr",
+                "load <~~ load",
+                "load <~~ lui",
+                "load <~~ jal",
+                "store <~~ cal_rr",
+                "store <~~ load",
+                "store <~~ lui",
+                "store <~~ jal",
+                "jr <~~ cal_rr",
+                "jr <~~ cal_ri",
+                "jr <~~ load",
+                "jr <~~ jal"
+            ],
+            "details": {
+                "cal_rr <~~ cal_rr": 0,
+                "cal_rr <~~ cal_ri": 86.66666666666666,
+                "cal_rr <~~ load": 0,
+                "cal_rr <~~ lui": 0,
+                "cal_rr <~~ jal": 0,
+                "cal_ri <~~ cal_rr": 0,
+                "cal_ri <~~ cal_ri": 73.33333333333333,
+                "cal_ri <~~ load": 80.0,
+                "cal_ri <~~ lui": 73.33333333333333,
+                "cal_ri <~~ jal": 0,
+                "br_r2 <~~ cal_rr": 0,
+                "br_r2 <~~ cal_ri": 80.0,
+                "br_r2 <~~ load": 0,
+                "br_r2 <~~ lui": 0,
+                "br_r2 <~~ jal": 0,
+                "load <~~ cal_rr": 0,
+                "load <~~ cal_ri": 73.33333333333333,
+                "load <~~ load": 0,
+                "load <~~ lui": 0,
+                "load <~~ jal": 0,
+                "store <~~ cal_rr": 0,
+                "store <~~ cal_ri": 100.0,
+                "store <~~ load": 0,
+                "store <~~ lui": 0,
+                "store <~~ jal": 0,
+                "jr <~~ cal_rr": 0,
+                "jr <~~ cal_ri": 0,
+                "jr <~~ load": 0,
+                "jr <~~ jal": 0
+            }
+        },
+        "stall": {
+            "average": 10.0,
+            "warning": [
+                "cal_rr <~~ load",
+                "br_r2 <~~ cal_rr",
+                "br_r2 <~~ cal_ri",
+                "br_r2 <~~ load",
+                "load <~~ load",
+                "store <~~ load",
+                "jr <~~ cal_rr",
+                "jr <~~ cal_ri",
+                "jr <~~ load"
+            ],
+            "details": {
+                "cal_rr <~~ load": 0,
+                "cal_ri <~~ load": 100.0,
+                "br_r2 <~~ cal_rr": 0,
+                "br_r2 <~~ cal_ri": 0,
+                "br_r2 <~~ load": 0,
+                "load <~~ load": 0,
+                "store <~~ load": 0,
+                "jr <~~ cal_rr": 0,
+                "jr <~~ cal_ri": 0,
+                "jr <~~ load": 0
+            }
+        }
+    },
+    "forward": [
+        {
+            "src_instr": "lui",
+            "dst_instr": "ori",
+            "src_stage": "E",
+            "dst_stage": "D"
+        },
+        {
+            "src_instr": "lw",
+            "dst_instr": "ori",
+            "src_stage": "W",
+            "dst_stage": "E"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "add",
+            "src_stage": "M",
+            "dst_stage": "E"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "add",
+            "src_stage": "W",
+            "dst_stage": "D"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "beq",
+            "src_stage": "M",
+            "dst_stage": "D"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "lw",
+            "src_stage": "M",
+            "dst_stage": "E"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "ori",
+            "src_stage": "M",
+            "dst_stage": "E"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "sub",
+            "src_stage": "M",
+            "dst_stage": "E"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "sub",
+            "src_stage": "W",
+            "dst_stage": "D"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "sw",
+            "src_stage": "M",
+            "dst_stage": "D"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "sw",
+            "src_stage": "M",
+            "dst_stage": "E"
+        },
+        {
+            "src_instr": "ori",
+            "dst_instr": "sw",
+            "src_stage": "W",
+            "dst_stage": "D"
+        }
+    ],
+    "stall": [
+        {
+            "d_instr": "ori",
+            "cause": "lw",
+            "interval": 0
+        }
+    ]
+}

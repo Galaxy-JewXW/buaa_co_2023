@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+cpu instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .i_inst_rdata(i_inst_rdata), 
+    .m_data_rdata(m_data_rdata), 
+    .i_inst_addr(i_inst_addr), 
+    .m_data_addr(m_data_addr), 
+    .m_data_wdata(m_data_wdata), 
+    .m_data_byteen(m_data_byteen), 
+    .m_inst_addr(m_inst_addr), 
+    .w_grf_we(w_grf_we), 
+    .w_grf_addr(w_grf_addr), 
+    .w_grf_wdata(w_grf_wdata), 
+    .w_inst_addr(w_inst_addr)
+    );
+
+

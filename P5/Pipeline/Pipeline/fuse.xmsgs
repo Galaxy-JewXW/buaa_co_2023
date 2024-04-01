@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/mips.v" Line 59: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/mips.v" Line 144: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/mips.v" Line 214: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/mips.v" Line 269: Port <arg fmt="%s" index="1">rt</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/stall.v" Line 13: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/stall.v" Line 39: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/Pipeline/Pipeline/stall.v" Line 54: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+</messages>
+

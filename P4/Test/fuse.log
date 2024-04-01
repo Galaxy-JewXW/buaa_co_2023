@@ -1,0 +1,31 @@
+Running: D:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/tb_mips_isim_beh.exe -prj D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/tb_mips_beh.prj work.tb_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 32
+Turning on mult-threading, number of parallel sub-compilation jobs: 64 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/ifu.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/grf.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/ext.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/dm.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/controller.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/alu.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/mips.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/tb_mips.v" into library work
+Analyzing Verilog file "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ifu
+Compiling module controller
+Compiling module grf
+Compiling module ext
+Compiling module alu
+Compiling module dm
+Compiling module mips
+Compiling module tb_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable D:/BUAA_Undergraduate/23-24autumn/CO_hw/P4/Test/tb_mips_isim_beh.exe
+Fuse Memory Usage: 32576 KB
+Fuse CPU Usage: 31 ms

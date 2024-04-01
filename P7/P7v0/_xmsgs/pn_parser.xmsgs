@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/TC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/alu.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/alu.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/bridge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/bridge.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/bridge.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cmp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cmp.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cmp.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/controller.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/controller.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cp0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cpu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cpu.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/cpu.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/de.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/em.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/ext.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/ext.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/ext.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/fd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/fromRAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/fromRAM.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/fromRAM.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/grf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/ifu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/mdu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/mdu.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/mdu.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/mips.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/mw.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/npc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/npc.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/npc.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/stall_handle.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/tb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/toRAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/toRAM.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/def.v&apos; in file &quot;D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/toRAM.v&quot; line 2
+</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+(cd D:\SoftWare\ISE\14.7\ISE_DS)&&(settings64.bat)&&(cd D:\coding_file\study\Lesson\co_lesson\lesson\p7\statistic)&&(python new_test.py)

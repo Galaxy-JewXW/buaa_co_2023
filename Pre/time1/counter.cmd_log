@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/time1/counter.xst" -ofn "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/Pre/time1/counter.syr" 

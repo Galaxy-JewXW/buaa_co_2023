@@ -1,0 +1,5 @@
+set -tmpdir "E:/Pipeline/xst/projnav.tmp"
+set -xsthdpdir "E:/Pipeline/xst"
+elaborate
+-ifn control.prj
+-ifmt mixed

@@ -1,0 +1,44 @@
+ISim log file
+Running: D:\BUAA_Undergraduate\23-24autumn\CO_hw\P7\P7v0\mips_txt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7v0/mips_txt_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 1 <= 00000000
+                  42@00003004: $ 2 <= 00000000
+                  50@0000300c: *0000000c <= 00000000
+                  50@00003008: $ 3 <= 00000000
+                  58@00003010: $ 4 <= 00000000
+                  66@00003018: *00000010 <= 00000000
+                  66@00003014: $ 5 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 1 <= 00000000
+                  42@00003004: $ 2 <= 00000000
+                  50@0000300c: *0000000c <= 00000000
+                  50@00003008: $ 3 <= 00000000
+                  58@00003010: $ 4 <= 00000000
+                  66@00003018: *00000010 <= 00000000
+                  66@00003014: $ 5 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 1 <= 00000000
+                  42@00003004: $ 2 <= 00000000
+                  50@0000300c: *0000000c <= 00000000
+                  50@00003008: $ 3 <= 00000000
+                  58@00003010: $ 4 <= 00000000
+                  66@00003018: *00000010 <= 00000000
+                  66@00003014: $ 5 <= 00000000

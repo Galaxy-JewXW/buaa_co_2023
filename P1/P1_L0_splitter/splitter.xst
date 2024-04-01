@@ -1,0 +1,5 @@
+set -tmpdir "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/P1/P1_L0_splitter/xst/projnav.tmp"
+set -xsthdpdir "D:/BUAA_Undergraduate/23-24autumn/Computer-Organization/P1/P1_L0_splitter/xst"
+elaborate
+-ifn splitter.prj
+-ifmt mixed

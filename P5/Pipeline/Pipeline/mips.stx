@@ -1,0 +1,77 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Pipeline/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to E:/Pipeline/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "control.v" in library work
+Compiling verilog include file "def.v"
+Compiling verilog file "stall.v" in library work
+Compiling verilog include file "def.v"
+Module <control> compiled
+Compiling verilog file "M_DM.v" in library work
+Compiling verilog include file "def.v"
+Module <stall> compiled
+Compiling verilog file "MW_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <M_DM> compiled
+Compiling verilog file "F_IFU.v" in library work
+Compiling verilog include file "def.v"
+Module <MW_PASS> compiled
+Compiling verilog file "FD_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <F_IFU> compiled
+Compiling verilog file "E_ALU.v" in library work
+Compiling verilog include file "def.v"
+Module <FD_PASS> compiled
+Compiling verilog file "EM_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <E_ALU> compiled
+Compiling verilog file "D_NPC.v" in library work
+Compiling verilog include file "def.v"
+Module <EM_PASS> compiled
+Compiling verilog file "D_GRF.v" in library work
+Compiling verilog include file "def.v"
+Module <D_NPC> compiled
+Compiling verilog file "D_EXP.v" in library work
+Compiling verilog include file "def.v"
+Module <D_GRF> compiled
+Compiling verilog file "D_CMP.v" in library work
+Compiling verilog include file "def.v"
+Module <D_EXT> compiled
+Compiling verilog file "DE_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <D_CMP> compiled
+Compiling verilog file "mips.v" in library work
+Compiling verilog include file "def.v"
+Module <DE_PASS> compiled
+Module <mips> compiled
+No errors in compilation
+Analysis of file <"mips.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+
+Total memory usage is 4483684 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

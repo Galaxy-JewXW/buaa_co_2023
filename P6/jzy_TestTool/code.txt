@@ -1,0 +1,1243 @@
+lable1: lw $8 4($0)
+lable2: lh $8 14($0)
+lable3: lw $18 4($0)
+lable4: sw $22 12($0)
+lable5: sltu $11 $19 $18
+lable6: ori $8 $8 1
+lable7: div $14 $8
+lable8: lw $22 4($0)
+lable9: mflo $14
+lable10: or $8 $12 $10
+lable11: lb $8 11($0)
+lable12: andi $16 $18 58566
+lable13: add $20 $8 $22
+lable14: addi $15 $10 6537
+lable15: lui $16 20148
+lable16: and $20 $22 $23
+lable17: and $15 $12 $15
+lable18: addi $23 $9 8141
+lable19: addi $20 $20 123312
+lable20: beq $20 $22 lable1006
+lable21: nop
+lable22: lb $15 2($0)
+lable23: or $19 $15 $23
+lable24: lb $17 2($0)
+lable25: sltu $22 $15 $11
+lable26: sh $8 2($0)
+lable27: andi $22 $17 58618
+lable28: ori $t0 $0 0
+lable29: beq $ra $t0 lable34
+lable30: nop
+lable31: addi $ra $ra 12
+lable32: jr $ra
+lable33: nop
+lable34: jal lable24
+lable35: nop
+lable36: sub $10 $19 $18
+lable37: ori $23 $17 49368
+lable38: sb $10 6($0)
+lable39: mfhi $14
+lable40: slt $10 $15 $15
+lable41: sub $11 $13 $17
+lable42: lui $14 24758
+lable43: ori $13 $13 1
+lable44: multu $16 $13
+lable45: add $19 $23 $12
+lable46: slt $8 $23 $19
+lable47: mfhi $16
+lable48: ori $13 $17 54527
+lable49: sh $13 0($0)
+lable50: or $13 $16 $20
+lable51: andi $17 $13 9007
+lable52: add $17 $11 $22
+lable53: lw $17 0($0)
+lable54: mflo $23
+lable55: and $22 $16 $23
+lable56: ori $23 $23 1
+lable57: mult $10 $23
+lable58: mfhi $10
+lable59: lb $23 0($0)
+lable60: lb $16 12($0)
+lable61: or $10 $10 $23
+lable62: andi $13 $11 37238
+lable63: and $16 $12 $20
+lable64: and $10 $13 $14
+lable65: ori $11 $11 1
+lable66: mult $13 $11
+lable67: add $11 $16 $18
+lable68: sb $17 1($0)
+lable69: mfhi $13
+lable70: add $9 $23 $21
+lable71: slt $19 $23 $15
+lable72: add $13 $10 $18
+lable73: sub $15 $9 $11
+lable74: addi $14 $10 5628
+lable75: sh $14 8($0)
+lable76: sub $12 $9 $21
+lable77: lh $15 4($0)
+lable78: lw $16 8($0)
+lable79: sh $12 12($0)
+lable80: lh $14 2($0)
+lable81: sb $14 9($0)
+lable82: lw $21 4($0)
+lable83: andi $14 $8 48585
+lable84: add $14 $23 $23
+lable85: sw $21 12($0)
+lable86: and $22 $19 $17
+lable87: sb $19 8($0)
+lable88: lb $23 14($0)
+lable89: sltu $20 $22 $18
+lable90: addi $10 $11 42070
+lable91: sw $10 12($0)
+lable92: mfhi $15
+lable93: lb $23 6($0)
+lable94: sh $15 12($0)
+lable95: ori $17 $13 40992
+lable96: lb $17 15($0)
+lable97: ori $t0 $0 0
+lable98: beq $ra $t0 lable103
+lable99: nop
+lable100: addi $ra $ra 12
+lable101: jr $ra
+lable102: nop
+lable103: jal lable781
+lable104: nop
+lable105: lh $20 0($0)
+lable106: add $21 $20 $15
+lable107: lw $22 4($0)
+lable108: add $15 $21 $21
+lable109: ori $9 $16 8791
+lable110: ori $20 $22 24271
+lable111: add $17 $20 $22
+lable112: mflo $12
+lable113: and $10 $17 $14
+lable114: sltu $10 $15 $23
+lable115: sltu $15 $23 $12
+lable116: lb $11 0($0)
+lable117: lw $10 0($0)
+lable118: addi $21 $20 3067
+lable119: addi $11 $15 16130
+lable120: sh $21 14($0)
+lable121: add $19 $16 $23
+lable122: sub $18 $19 $12
+lable123: or $10 $9 $9
+lable124: ori $8 $10 2010
+lable125: add $20 $13 $14
+lable126: and $17 $13 $17
+lable127: ori $21 $21 54512
+lable128: lb $20 6($0)
+lable129: lh $11 6($0)
+lable130: sw $16 8($0)
+lable131: lh $11 8($0)
+lable132: lui $9 62155
+lable133: andi $19 $9 27762
+lable134: mfhi $17
+lable135: lw $10 8($0)
+lable136: or $10 $16 $17
+lable137: or $23 $8 $20
+lable138: and $9 $20 $23
+lable139: ori $15 $15 1
+lable140: divu $14 $15
+lable141: and $21 $15 $19
+lable142: mflo $22
+lable143: mflo $14
+lable144: lw $22 0($0)
+lable145: add $13 $15 $12
+lable146: ori $9 $13 16720
+lable147: add $12 $19 $22
+lable148: ori $12 $11 57494
+lable149: sh $12 10($0)
+lable150: ori $t0 $0 0
+lable151: beq $ra $t0 lable156
+lable152: nop
+lable153: addi $ra $ra 12
+lable154: jr $ra
+lable155: nop
+lable156: sb $23 1($0)
+lable157: and $22 $17 $15
+lable158: jal lable619
+lable159: nop
+lable160: ori $t0 $0 0
+lable161: beq $ra $t0 lable166
+lable162: nop
+lable163: addi $ra $ra 12
+lable164: jr $ra
+lable165: nop
+lable166: sw $22 4($0)
+lable167: add $12 $15 $10
+lable168: jal lable731
+lable169: nop
+lable170: add $23 $14 $15
+lable171: ori $15 $22 13376
+lable172: lb $14 10($0)
+lable173: or $11 $9 $23
+lable174: slt $16 $8 $10
+lable175: sub $14 $16 $10
+lable176: lb $20 13($0)
+lable177: sb $13 7($0)
+lable178: sub $23 $10 $18
+lable179: sub $14 $20 $9
+lable180: ori $19 $19 1
+lable181: divu $22 $19
+lable182: sltu $15 $15 $17
+lable183: add $9 $19 $20
+lable184: mfhi $22
+lable185: andi $17 $16 2662
+lable186: add $20 $17 $11
+lable187: sltu $18 $13 $10
+lable188: or $23 $23 $11
+lable189: ori $8 $12 47501
+lable190: sh $18 12($0)
+lable191: mfhi $15
+lable192: and $16 $15 $13
+lable193: ori $17 $17 1
+lable194: div $9 $17
+lable195: mflo $20
+lable196: mflo $9
+lable197: mflo $9
+lable198: add $17 $15 $12
+lable199: lw $9 8($0)
+lable200: slt $17 $12 $20
+lable201: sh $17 2($0)
+lable202: lui $18 61224
+lable203: or $9 $21 $21
+lable204: lui $18 63865
+lable205: mflo $12
+lable206: lb $12 0($0)
+lable207: ori $20 $13 33705
+lable208: lw $20 8($0)
+lable209: lw $20 12($0)
+lable210: andi $18 $16 34615
+lable211: lui $20 9464
+lable212: ori $14 $14 1
+lable213: div $8 $14
+lable214: sltu $22 $23 $20
+lable215: sh $18 2($0)
+lable216: mfhi $8
+lable217: lb $23 7($0)
+lable218: and $12 $19 $18
+lable219: sw $12 12($0)
+lable220: ori $10 $23 4470
+lable221: ori $t0 $0 0
+lable222: beq $ra $t0 lable227
+lable223: nop
+lable224: addi $ra $ra 12
+lable225: jr $ra
+lable226: nop
+lable227: lb $19 6($0)
+lable228: lh $21 6($0)
+lable229: jal lable281
+lable230: nop
+lable231: ori $17 $11 37634
+lable232: lh $8 4($0)
+lable233: and $13 $17 $19
+lable234: mfhi $14
+lable235: lui $18 4688
+lable236: slt $17 $14 $11
+lable237: andi $21 $20 12694
+lable238: mfhi $22
+lable239: add $20 $13 $21
+lable240: or $20 $9 $12
+lable241: lh $21 2($0)
+lable242: add $15 $12 $20
+lable243: lw $11 0($0)
+lable244: lh $9 0($0)
+lable245: mfhi $15
+lable246: andi $14 $11 10674
+lable247: or $17 $20 $20
+lable248: lui $17 5325
+lable249: mfhi $20
+lable250: andi $11 $20 14042
+lable251: sub $17 $20 $21
+lable252: lw $15 0($0)
+lable253: sh $17 14($0)
+lable254: lw $10 0($0)
+lable255: lw $10 8($0)
+lable256: lb $17 12($0)
+lable257: add $22 $9 $22
+lable258: or $20 $20 $17
+lable259: sltu $22 $19 $19
+lable260: add $14 $22 $16
+lable261: lb $13 14($0)
+lable262: lh $11 4($0)
+lable263: lw $13 0($0)
+lable264: addi $17 $16 57737
+lable265: lb $17 14($0)
+lable266: andi $13 $23 20078
+lable267: andi $15 $18 44184
+lable268: slt $14 $17 $18
+lable269: ori $14 $13 55090
+lable270: slt $21 $22 $23
+lable271: andi $12 $16 65535
+lable272: ori $9 $21 23541
+lable273: slt $9 $19 $23
+lable274: or $12 $13 $9
+lable275: ori $16 $10 24202
+lable276: lh $16 2($0)
+lable277: or $11 $18 $13
+lable278: andi $19 $11 55893
+lable279: mfhi $20
+lable280: or $10 $12 $15
+lable281: lui $23 36953
+lable282: sub $8 $17 $20
+lable283: lw $21 4($0)
+lable284: sb $10 13($0)
+lable285: lw $21 12($0)
+lable286: ori $22 $22 1
+lable287: div $18 $22
+lable288: add $11 $16 $10
+lable289: mflo $18
+lable290: and $11 $10 $12
+lable291: slt $15 $13 $8
+lable292: slt $15 $15 $13
+lable293: slt $18 $18 $11
+lable294: sub $14 $13 $13
+lable295: lw $11 0($0)
+lable296: lb $20 14($0)
+lable297: sb $14 1($0)
+lable298: ori $13 $13 1
+lable299: multu $23 $13
+lable300: sub $22 $21 $17
+lable301: mflo $23
+lable302: ori $23 $23 1
+lable303: multu $9 $23
+lable304: and $17 $17 $16
+lable305: mfhi $9
+lable306: mfhi $21
+lable307: slt $20 $11 $15
+lable308: andi $19 $21 36950
+lable309: lb $22 1($0)
+lable310: and $9 $15 $9
+lable311: lh $22 10($0)
+lable312: add $14 $16 $23
+lable313: andi $17 $18 39788
+lable314: sw $14 4($0)
+lable315: lh $8 8($0)
+lable316: addi $22 $10 47808
+lable317: or $21 $19 $20
+lable318: sw $8 12($0)
+lable319: ori $t0 $0 0
+lable320: beq $ra $t0 lable325
+lable321: nop
+lable322: addi $ra $ra 12
+lable323: jr $ra
+lable324: nop
+lable325: sh $20 10($0)
+lable326: lh $10 12($0)
+lable327: jal lable533
+lable328: nop
+lable329: andi $17 $18 25337
+lable330: lui $17 53456
+lable331: addi $16 $15 56766
+lable332: sw $16 4($0)
+lable333: sub $16 $14 $22
+lable334: sb $8 6($0)
+lable335: sb $16 12($0)
+lable336: ori $t0 $0 0
+lable337: beq $ra $t0 lable342
+lable338: nop
+lable339: addi $ra $ra 12
+lable340: jr $ra
+lable341: nop
+lable342: add $13 $19 $22
+lable343: mflo $22
+lable344: jal lable521
+lable345: nop
+lable346: and $12 $21 $19
+lable347: sub $11 $21 $12
+lable348: ori $23 $23 1
+lable349: div $20 $23
+lable350: ori $21 $9 12942
+lable351: mflo $20
+lable352: lh $18 4($0)
+lable353: lw $18 0($0)
+lable354: mfhi $22
+lable355: or $16 $21 $14
+lable356: or $19 $21 $19
+lable357: lh $22 14($0)
+lable358: add $11 $8 $23
+lable359: lb $13 14($0)
+lable360: sh $16 4($0)
+lable361: ori $19 $11 4277
+lable362: add $18 $8 $23
+lable363: sb $18 8($0)
+lable364: lw $13 8($0)
+lable365: mflo $18
+lable366: sltu $15 $14 $20
+lable367: add $12 $15 $13
+lable368: lb $23 5($0)
+lable369: lb $23 2($0)
+lable370: sub $22 $9 $20
+lable371: add $23 $15 $22
+lable372: lw $16 12($0)
+lable373: add $23 $16 $13
+lable374: slt $16 $11 $20
+lable375: sub $12 $22 $12
+lable376: lw $14 0($0)
+lable377: addi $9 $16 48446
+lable378: lh $11 6($0)
+lable379: sh $11 10($0)
+lable380: slt $21 $8 $13
+lable381: sltu $14 $11 $20
+lable382: and $16 $18 $21
+lable383: or $13 $19 $9
+lable384: addi $15 $18 25980
+lable385: or $15 $21 $11
+lable386: addi $13 $13 123312
+lable387: beq $20 $13 lable693
+lable388: nop
+lable389: addi $17 $16 4771
+lable390: ori $21 $16 43263
+lable391: sub $16 $19 $23
+lable392: add $10 $17 $19
+lable393: lh $23 8($0)
+lable394: mflo $22
+lable395: mfhi $18
+lable396: andi $10 $23 17039
+lable397: ori $15 $15 1
+lable398: multu $20 $15
+lable399: mflo $20
+lable400: lb $21 4($0)
+lable401: ori $14 $16 38786
+lable402: ori $12 $11 49978
+lable403: lui $21 27306
+lable404: slt $15 $9 $21
+lable405: and $22 $8 $19
+lable406: lh $11 8($0)
+lable407: lh $15 4($0)
+lable408: sltu $11 $15 $10
+lable409: sh $8 0($0)
+lable410: lw $11 8($0)
+lable411: sub $15 $21 $22
+lable412: sb $20 2($0)
+lable413: addi $11 $15 1855
+lable414: mfhi $23
+lable415: andi $12 $23 4855
+lable416: ori $t0 $0 0
+lable417: beq $ra $t0 lable422
+lable418: nop
+lable419: addi $ra $ra 12
+lable420: jr $ra
+lable421: nop
+lable422: lw $22 0($0)
+lable423: sltu $19 $10 $15
+lable424: jal lable918
+lable425: nop
+lable426: lw $18 8($0)
+lable427: lw $18 4($0)
+lable428: or $15 $9 $21
+lable429: add $19 $19 $19
+lable430: mfhi $18
+lable431: lw $15 4($0)
+lable432: ori $t0 $0 0
+lable433: beq $ra $t0 lable438
+lable434: nop
+lable435: addi $ra $ra 12
+lable436: jr $ra
+lable437: nop
+lable438: andi $13 $20 11034
+lable439: mflo $14
+lable440: jal lable477
+lable441: nop
+lable442: lh $12 4($0)
+lable443: lui $12 21211
+lable444: sltu $19 $17 $11
+lable445: andi $17 $19 22862
+lable446: andi $21 $10 49776
+lable447: lb $16 2($0)
+lable448: sh $21 6($0)
+lable449: sub $22 $20 $20
+lable450: lh $23 4($0)
+lable451: sltu $8 $9 $10
+lable452: or $18 $18 $22
+lable453: andi $18 $20 60727
+lable454: andi $8 $15 50450
+lable455: lh $18 14($0)
+lable456: lui $19 47726
+lable457: or $10 $16 $8
+lable458: lb $23 13($0)
+lable459: lui $19 6135
+lable460: or $12 $10 $18
+lable461: sw $12 0($0)
+lable462: and $15 $11 $12
+lable463: andi $22 $19 43578
+lable464: and $19 $14 $14
+lable465: slt $12 $21 $15
+lable466: sltu $9 $18 $20
+lable467: and $16 $17 $21
+lable468: and $18 $20 $9
+lable469: sltu $8 $12 $18
+lable470: lb $8 8($0)
+lable471: andi $11 $23 57585
+lable472: sltu $17 $20 $19
+lable473: lb $11 11($0)
+lable474: slt $10 $15 $22
+lable475: lh $16 0($0)
+lable476: lh $15 6($0)
+lable477: addi $10 $10 123312
+lable478: beq $15 $10 lable399
+lable479: nop
+lable480: mfhi $22
+lable481: andi $15 $9 32277
+lable482: sub $8 $8 $23
+lable483: sltu $8 $14 $22
+lable484: sltu $11 $20 $13
+lable485: mflo $19
+lable486: add $13 $15 $13
+lable487: or $9 $11 $13
+lable488: addi $15 $8 45764
+lable489: sh $18 6($0)
+lable490: ori $11 $15 60105
+lable491: ori $21 $19 34939
+lable492: lw $9 0($0)
+lable493: sw $21 8($0)
+lable494: lb $11 7($0)
+lable495: lh $11 2($0)
+lable496: ori $18 $18 1
+lable497: div $9 $18
+lable498: mflo $9
+lable499: lb $11 9($0)
+lable500: sub $23 $18 $12
+lable501: andi $9 $16 54271
+lable502: or $21 $8 $11
+lable503: sltu $18 $8 $22
+lable504: sw $11 4($0)
+lable505: add $16 $18 $15
+lable506: and $10 $17 $8
+lable507: addi $14 $10 21026
+lable508: and $9 $15 $18
+lable509: add $20 $21 $11
+lable510: slt $18 $12 $9
+lable511: lw $9 12($0)
+lable512: ori $19 $16 63607
+lable513: lb $15 14($0)
+lable514: sb $9 8($0)
+lable515: lw $13 0($0)
+lable516: mflo $14
+lable517: slt $14 $13 $21
+lable518: ori $t0 $0 0
+lable519: beq $ra $t0 lable524
+lable520: nop
+lable521: addi $ra $ra 12
+lable522: jr $ra
+lable523: nop
+lable524: and $8 $12 $17
+lable525: and $23 $20 $19
+lable526: jal lable541
+lable527: nop
+lable528: and $17 $13 $9
+lable529: sub $10 $8 $17
+lable530: ori $10 $10 1
+lable531: mult $14 $10
+lable532: sltu $22 $22 $23
+lable533: slt $11 $18 $13
+lable534: mflo $14
+lable535: add $23 $12 $21
+lable536: lui $19 26419
+lable537: addi $17 $9 23549
+lable538: sh $23 0($0)
+lable539: lh $17 0($0)
+lable540: lw $8 12($0)
+lable541: and $11 $17 $14
+lable542: mfhi $8
+lable543: and $22 $8 $23
+lable544: lw $18 12($0)
+lable545: or $9 $13 $13
+lable546: lb $22 11($0)
+lable547: add $15 $18 $15
+lable548: and $23 $12 $10
+lable549: ori $16 $23 19887
+lable550: ori $23 $23 1
+lable551: div $13 $23
+lable552: lw $12 0($0)
+lable553: lh $18 12($0)
+lable554: mflo $13
+lable555: add $9 $23 $15
+lable556: addi $13 $9 65176
+lable557: addi $15 $16 44502
+lable558: lb $15 1($0)
+lable559: mflo $12
+lable560: sb $23 2($0)
+lable561: lh $8 8($0)
+lable562: lw $12 4($0)
+lable563: sltu $8 $16 $15
+lable564: sh $15 12($0)
+lable565: slt $15 $17 $8
+lable566: ori $14 $14 1
+lable567: div $18 $14
+lable568: mflo $18
+lable569: sltu $16 $9 $13
+lable570: and $22 $21 $16
+lable571: lw $23 8($0)
+lable572: mfhi $17
+lable573: sh $23 4($0)
+lable574: and $22 $15 $13
+lable575: slt $9 $23 $22
+lable576: lui $14 38259
+lable577: sw $14 12($0)
+lable578: lb $17 7($0)
+lable579: and $20 $11 $10
+lable580: sub $19 $21 $17
+lable581: ori $t0 $0 0
+lable582: beq $ra $t0 lable587
+lable583: nop
+lable584: addi $ra $ra 12
+lable585: jr $ra
+lable586: nop
+lable587: sh $19 6($0)
+lable588: slt $19 $17 $17
+lable589: jal lable673
+lable590: nop
+lable591: sub $9 $22 $15
+lable592: lb $18 2($0)
+lable593: sb $9 13($0)
+lable594: sub $13 $18 $19
+lable595: sh $16 6($0)
+lable596: ori $8 $13 34476
+lable597: sltu $16 $20 $23
+lable598: lui $16 18459
+lable599: sub $23 $20 $9
+lable600: slt $14 $11 $10
+lable601: lw $20 12($0)
+lable602: lh $23 12($0)
+lable603: sltu $9 $10 $14
+lable604: sw $15 8($0)
+lable605: sb $9 0($0)
+lable606: sub $15 $19 $9
+lable607: sltu $17 $19 $17
+lable608: add $10 $22 $8
+lable609: sb $15 8($0)
+lable610: ori $21 $21 1
+lable611: divu $22 $21
+lable612: slt $11 $10 $9
+lable613: mflo $22
+lable614: ori $13 $13 1
+lable615: multu $15 $13
+lable616: sw $23 0($0)
+lable617: sltu $18 $20 $13
+lable618: mfhi $15
+lable619: lb $20 14($0)
+lable620: ori $23 $20 22564
+lable621: lui $20 23513
+lable622: lb $10 7($0)
+lable623: addi $14 $8 62487
+lable624: ori $23 $20 62568
+lable625: addi $20 $15 54154
+lable626: sub $21 $18 $17
+lable627: lh $12 8($0)
+lable628: sltu $11 $20 $16
+lable629: ori $t0 $0 0
+lable630: beq $ra $t0 lable635
+lable631: nop
+lable632: addi $ra $ra 12
+lable633: jr $ra
+lable634: nop
+lable635: sltu $13 $11 $17
+lable636: jal lable804
+lable637: nop
+lable638: lb $17 9($0)
+lable639: andi $21 $21 836
+lable640: lh $22 4($0)
+lable641: lw $17 4($0)
+lable642: sltu $9 $22 $19
+lable643: sb $18 14($0)
+lable644: lui $9 21183
+lable645: ori $14 $8 19356
+lable646: and $17 $14 $9
+lable647: mflo $23
+lable648: lh $19 0($0)
+lable649: sh $20 10($0)
+lable650: sw $23 0($0)
+lable651: ori $t0 $0 0
+lable652: beq $ra $t0 lable657
+lable653: nop
+lable654: addi $ra $ra 12
+lable655: jr $ra
+lable656: nop
+lable657: mfhi $16
+lable658: jal lable1045
+lable659: nop
+lable660: ori $t0 $0 0
+lable661: beq $ra $t0 lable666
+lable662: nop
+lable663: addi $ra $ra 12
+lable664: jr $ra
+lable665: nop
+lable666: jal lable714
+lable667: nop
+lable668: lb $14 3($0)
+lable669: lh $14 14($0)
+lable670: addi $17 $12 50331
+lable671: sw $15 8($0)
+lable672: lh $17 0($0)
+lable673: slt $15 $9 $20
+lable674: sb $9 6($0)
+lable675: and $14 $12 $17
+lable676: lh $15 4($0)
+lable677: add $12 $21 $18
+lable678: sw $21 0($0)
+lable679: lw $12 4($0)
+lable680: mflo $17
+lable681: lh $16 12($0)
+lable682: and $8 $23 $15
+lable683: sltu $14 $22 $17
+lable684: addi $12 $10 38932
+lable685: sb $22 5($0)
+lable686: addi $8 $12 58017
+lable687: ori $22 $22 1
+lable688: divu $13 $22
+lable689: lh $8 10($0)
+lable690: sw $23 8($0)
+lable691: mflo $13
+lable692: slt $13 $18 $15
+lable693: lb $12 3($0)
+lable694: lb $13 12($0)
+lable695: mfhi $20
+lable696: add $21 $16 $20
+lable697: add $20 $8 $17
+lable698: sh $20 10($0)
+lable699: addi $18 $15 2313
+lable700: or $19 $18 $14
+lable701: and $23 $18 $8
+lable702: lui $19 28089
+lable703: lw $22 8($0)
+lable704: lw $23 8($0)
+lable705: sub $20 $14 $18
+lable706: sw $8 4($0)
+lable707: andi $21 $9 22830
+lable708: ori $22 $20 65100
+lable709: and $11 $15 $10
+lable710: andi $13 $14 58103
+lable711: sh $11 2($0)
+lable712: addi $19 $14 14666
+lable713: sw $22 8($0)
+lable714: or $23 $19 $20
+lable715: or $13 $12 $17
+lable716: sub $12 $11 $13
+lable717: add $10 $15 $23
+lable718: or $16 $12 $13
+lable719: sltu $12 $20 $10
+lable720: add $8 $9 $14
+lable721: lui $21 16946
+lable722: and $14 $15 $13
+lable723: slt $20 $8 $18
+lable724: lw $12 8($0)
+lable725: add $17 $10 $10
+lable726: lb $16 9($0)
+lable727: addi $11 $12 23446
+lable728: mfhi $17
+lable729: slt $13 $17 $11
+lable730: mfhi $9
+lable731: and $14 $12 $12
+lable732: sb $9 15($0)
+lable733: lui $19 64594
+lable734: slt $16 $12 $9
+lable735: lw $20 8($0)
+lable736: add $17 $19 $8
+lable737: ori $19 $22 34425
+lable738: add $15 $15 $16
+lable739: ori $13 $19 36876
+lable740: lw $16 8($0)
+lable741: mfhi $11
+lable742: sub $12 $19 $18
+lable743: sw $16 0($0)
+lable744: andi $17 $21 28837
+lable745: sb $8 3($0)
+lable746: or $13 $23 $17
+lable747: ori $12 $12 1
+lable748: multu $15 $12
+lable749: mfhi $10
+lable750: mfhi $15
+lable751: andi $19 $16 48869
+lable752: sltu $18 $12 $19
+lable753: ori $17 $17 1
+lable754: div $14 $17
+lable755: andi $18 $15 59867
+lable756: lw $13 8($0)
+lable757: mflo $14
+lable758: andi $15 $16 53661
+lable759: sw $15 0($0)
+lable760: add $19 $18 $17
+lable761: sw $13 12($0)
+lable762: sub $22 $9 $19
+lable763: or $16 $21 $10
+lable764: addi $14 $18 30844
+lable765: sltu $11 $16 $21
+lable766: ori $18 $18 1
+lable767: div $16 $18
+lable768: mflo $16
+lable769: slt $20 $9 $15
+lable770: andi $18 $14 32074
+lable771: and $23 $20 $15
+lable772: sltu $14 $18 $22
+lable773: lb $14 12($0)
+lable774: ori $t0 $0 0
+lable775: beq $ra $t0 lable780
+lable776: nop
+lable777: addi $ra $ra 12
+lable778: jr $ra
+lable779: nop
+lable780: mfhi $9
+lable781: mflo $11
+lable782: jal lable751
+lable783: nop
+lable784: or $13 $16 $15
+lable785: ori $10 $14 576
+lable786: sub $19 $15 $19
+lable787: ori $11 $13 52856
+lable788: sltu $13 $22 $19
+lable789: mfhi $14
+lable790: lui $19 38071
+lable791: sb $13 14($0)
+lable792: lb $18 7($0)
+lable793: lh $9 10($0)
+lable794: slt $14 $9 $18
+lable795: mflo $18
+lable796: mfhi $14
+lable797: sub $13 $12 $17
+lable798: andi $21 $18 46166
+lable799: mflo $9
+lable800: lh $11 14($0)
+lable801: sltu $8 $15 $12
+lable802: sb $9 7($0)
+lable803: lb $10 13($0)
+lable804: addi $12 $10 55087
+lable805: add $13 $23 $9
+lable806: addi $19 $17 8601
+lable807: and $15 $13 $21
+lable808: lw $17 4($0)
+lable809: andi $18 $21 55093
+lable810: addi $21 $17 49087
+lable811: sub $14 $11 $20
+lable812: lw $23 0($0)
+lable813: addi $14 $14 123312
+lable814: beq $14 $15 lable504
+lable815: nop
+lable816: lui $11 53420
+lable817: ori $19 $23 24479
+lable818: sub $13 $23 $20
+lable819: addi $11 $11 123312
+lable820: beq $9 $11 lable61
+lable821: nop
+lable822: or $15 $13 $14
+lable823: sb $15 0($0)
+lable824: mflo $9
+lable825: andi $14 $15 64302
+lable826: and $21 $18 $9
+lable827: sub $21 $14 $13
+lable828: slt $11 $12 $17
+lable829: and $18 $23 $18
+lable830: lh $21 12($0)
+lable831: mflo $10
+lable832: sw $10 4($0)
+lable833: add $19 $10 $23
+lable834: sh $19 4($0)
+lable835: and $18 $20 $22
+lable836: or $15 $14 $11
+lable837: lw $12 12($0)
+lable838: lui $18 19342
+lable839: or $9 $23 $17
+lable840: slt $18 $10 $15
+lable841: and $18 $16 $9
+lable842: andi $9 $17 33583
+lable843: ori $22 $8 5716
+lable844: addi $9 $9 123312
+lable845: beq $18 $9 lable515
+lable846: nop
+lable847: ori $t0 $0 0
+lable848: beq $ra $t0 lable853
+lable849: nop
+lable850: addi $ra $ra 12
+lable851: jr $ra
+lable852: nop
+lable853: or $10 $10 $10
+lable854: jal lable985
+lable855: nop
+lable856: sltu $19 $18 $23
+lable857: lw $19 8($0)
+lable858: lb $20 9($0)
+lable859: lw $14 12($0)
+lable860: sub $10 $22 $20
+lable861: and $11 $19 $23
+lable862: sub $8 $9 $12
+lable863: lb $11 7($0)
+lable864: lh $12 8($0)
+lable865: and $20 $11 $23
+lable866: mflo $14
+lable867: slt $14 $12 $21
+lable868: ori $21 $21 1
+lable869: div $12 $21
+lable870: lb $9 7($0)
+lable871: mflo $12
+lable872: and $22 $18 $15
+lable873: sb $12 15($0)
+lable874: and $8 $22 $8
+lable875: ori $t0 $0 0
+lable876: beq $ra $t0 lable881
+lable877: nop
+lable878: addi $ra $ra 12
+lable879: jr $ra
+lable880: nop
+lable881: lui $18 2413
+lable882: lw $14 12($0)
+lable883: jal lable1005
+lable884: nop
+lable885: sltu $15 $16 $19
+lable886: ori $16 $12 12297
+lable887: sub $23 $15 $19
+lable888: lw $12 0($0)
+lable889: andi $22 $14 48709
+lable890: andi $10 $12 18887
+lable891: lw $20 0($0)
+lable892: ori $19 $11 65528
+lable893: sb $20 6($0)
+lable894: lh $11 2($0)
+lable895: sub $12 $10 $16
+lable896: slt $9 $12 $8
+lable897: or $8 $23 $11
+lable898: sub $10 $15 $11
+lable899: andi $15 $9 5527
+lable900: sh $10 0($0)
+lable901: sltu $20 $16 $16
+lable902: sw $10 4($0)
+lable903: add $11 $20 $11
+lable904: ori $8 $8 1
+lable905: divu $21 $8
+lable906: sb $19 12($0)
+lable907: mfhi $21
+lable908: add $16 $20 $13
+lable909: sb $16 5($0)
+lable910: mfhi $8
+lable911: lb $16 9($0)
+lable912: lw $8 12($0)
+lable913: slt $11 $9 $19
+lable914: mflo $10
+lable915: slt $14 $13 $17
+lable916: sub $18 $11 $22
+lable917: lb $15 5($0)
+lable918: sw $22 0($0)
+lable919: addi $16 $15 21393
+lable920: and $12 $13 $10
+lable921: add $17 $10 $12
+lable922: addi $9 $16 56900
+lable923: sub $17 $11 $9
+lable924: add $11 $18 $8
+lable925: lui $11 5019
+lable926: andi $21 $20 50541
+lable927: ori $10 $21 46359
+lable928: ori $15 $15 1
+lable929: multu $20 $15
+lable930: mflo $20
+lable931: add $12 $14 $8
+lable932: sltu $18 $23 $11
+lable933: lb $12 4($0)
+lable934: ori $12 $22 28466
+lable935: andi $19 $20 44293
+lable936: lh $12 10($0)
+lable937: lw $16 8($0)
+lable938: sw $20 0($0)
+lable939: slt $13 $9 $18
+lable940: sw $16 12($0)
+lable941: sub $20 $13 $13
+lable942: ori $21 $20 32452
+lable943: lh $20 6($0)
+lable944: ori $10 $13 10999
+lable945: sw $20 0($0)
+lable946: sub $8 $10 $13
+lable947: and $16 $19 $18
+lable948: ori $17 $15 12020
+lable949: lh $8 8($0)
+lable950: sub $18 $11 $21
+lable951: addi $18 $18 123312
+lable952: beq $8 $18 lable637
+lable953: nop
+lable954: sub $12 $19 $11
+lable955: sb $12 10($0)
+lable956: ori $8 $23 55373
+lable957: or $9 $19 $18
+lable958: add $14 $8 $16
+lable959: ori $8 $8 1
+lable960: multu $21 $8
+lable961: lw $14 12($0)
+lable962: mfhi $21
+lable963: mfhi $18
+lable964: and $23 $23 $18
+lable965: ori $21 $21 1
+lable966: multu $12 $21
+lable967: addi $8 $21 21844
+lable968: mfhi $15
+lable969: mfhi $12
+lable970: addi $9 $20 36160
+lable971: lui $20 2578
+lable972: lw $9 8($0)
+lable973: add $12 $23 $14
+lable974: addi $10 $12 51244
+lable975: addi $15 $12 57859
+lable976: sb $14 1($0)
+lable977: add $22 $16 $15
+lable978: lb $15 14($0)
+lable979: and $23 $21 $13
+lable980: addi $21 $14 42356
+lable981: sh $15 8($0)
+lable982: and $20 $22 $23
+lable983: sw $9 12($0)
+lable984: sb $20 10($0)
+lable985: add $16 $21 $15
+lable986: addi $11 $14 33073
+lable987: mfhi $15
+lable988: sh $16 12($0)
+lable989: lui $9 3791
+lable990: lui $13 5953
+lable991: add $23 $20 $17
+lable992: lw $9 0($0)
+lable993: ori $10 $10 1
+lable994: divu $20 $10
+lable995: mfhi $23
+lable996: sb $9 0($0)
+lable997: mfhi $20
+lable998: ori $t0 $0 0
+lable999: beq $ra $t0 lable1004
+lable1000: nop
+lable1001: addi $ra $ra 12
+lable1002: jr $ra
+lable1003: nop
+lable1004: or $12 $23 $10
+lable1005: jal lable369
+lable1006: nop
+lable1007: ori $20 $23 22911
+lable1008: sh $13 12($0)
+lable1009: sub $14 $10 $20
+lable1010: or $10 $18 $21
+lable1011: lw $15 0($0)
+lable1012: addi $23 $21 46579
+lable1013: slt $14 $20 $10
+lable1014: add $18 $9 $23
+lable1015: lh $23 12($0)
+lable1016: ori $11 $18 28308
+lable1017: addi $9 $22 57119
+lable1018: sltu $17 $9 $23
+lable1019: lw $8 12($0)
+lable1020: sb $12 13($0)
+lable1021: ori $15 $8 59904
+lable1022: sltu $13 $14 $11
+lable1023: sh $13 0($0)
+lable1024: sltu $18 $15 $17
+lable1025: addi $13 $10 21819
+lable1026: and $17 $16 $22
+lable1027: andi $15 $18 65300
+lable1028: mfhi $23
+lable1029: lw $12 12($0)
+lable1030: addi $23 $23 123312
+lable1031: beq $23 $22 lable311
+lable1032: nop
+lable1033: ori $12 $11 54464
+lable1034: and $8 $9 $21
+lable1035: slt $19 $12 $15
+lable1036: ori $19 $19 1
+lable1037: div $22 $19
+lable1038: or $19 $14 $21
+lable1039: sb $15 2($0)
+lable1040: mfhi $22
+lable1041: ori $t0 $0 0
+lable1042: beq $ra $t0 lable1047
+lable1043: nop
+lable1044: addi $ra $ra 12
+lable1045: jr $ra
+lable1046: nop
+lable1047: addi $8 $13 57109
+lable1048: jal lable1056
+lable1049: nop
+lable1050: lw $19 8($0)
+lable1051: lb $22 11($0)
+lable1052: ori $8 $19 55156
+lable1053: slt $13 $14 $23
+lable1054: or $21 $11 $16
+lable1055: andi $17 $13 31645
+lable1056: ori $t0 $0 0
+lable1057: beq $ra $t0 lable1062
+lable1058: nop
+lable1059: addi $ra $ra 12
+lable1060: jr $ra
+lable1061: nop
+lable1062: and $12 $16 $12
+lable1063: jal lable1054
+lable1064: nop
+lable1065: lh $16 0($0)
+lable1066: andi $13 $13 10490
+lable1067: lh $16 2($0)
+lable1068: ori $12 $20 25162
+lable1069: add $8 $21 $9
+lable1070: sb $12 10($0)
+lable1071: lb $9 14($0)
+lable1072: sb $9 8($0)
+lable1073: and $12 $14 $17
+lable1074: sub $19 $16 $15
+lable1075: lb $12 5($0)
+lable1076: ori $20 $10 42443
+lable1077: sub $21 $20 $8
+lable1078: ori $t0 $0 0
+lable1079: beq $ra $t0 lable1084
+lable1080: nop
+lable1081: addi $ra $ra 12
+lable1082: jr $ra
+lable1083: nop
+lable1084: sw $10 0($0)
+lable1085: jal lable1065
+lable1086: nop
+lable1087: or $20 $18 $19
+lable1088: lh $20 4($0)
+lable1089: mfhi $18
+lable1090: addi $20 $23 57654
+lable1091: or $17 $11 $20
+lable1092: or $15 $18 $21
+lable1093: ori $18 $18 1
+lable1094: divu $11 $18
+lable1095: lb $8 11($0)
+lable1096: sw $12 0($0)
+lable1097: mfhi $11
+lable1098: ori $8 $8 1
+lable1099: mult $21 $8
+lable1100: sb $17 11($0)
+lable1101: mflo $18
+lable1102: mfhi $21
+lable1103: ori $12 $12 1
+lable1104: divu $21 $12
+lable1105: mfhi $21
+lable1106: mfhi $8
+lable1107: andi $11 $10 8016
+lable1108: sltu $22 $8 $11
+lable1109: lui $14 45903
+lable1110: and $8 $19 $14
+lable1111: lui $12 50201
+lable1112: sh $22 6($0)
+lable1113: or $23 $16 $12
+lable1114: ori $20 $20 1
+lable1115: multu $15 $20
+lable1116: sb $9 1($0)
+lable1117: sub $12 $8 $14
+lable1118: mfhi $15
+lable1119: ori $9 $9 1
+lable1120: divu $19 $9
+lable1121: sub $22 $23 $17
+lable1122: sb $21 14($0)
+lable1123: mflo $19
+lable1124: and $11 $20 $14
+lable1125: add $22 $11 $20
+lable1126: lb $14 5($0)
+lable1127: sltu $23 $8 $19
+lable1128: lw $14 8($0)
+lable1129: sub $22 $20 $20
+lable1130: add $11 $14 $22
+lable1131: ori $16 $16 1
+lable1132: mult $13 $16
+lable1133: andi $14 $12 22942
+lable1134: addi $18 $14 57299
+lable1135: mflo $13
+lable1136: ori $8 $8 1
+lable1137: multu $16 $8
+lable1138: mflo $16
+lable1139: lui $8 41592
+lable1140: slt $19 $9 $17
+lable1141: andi $13 $8 45882
+lable1142: or $8 $15 $18
+lable1143: and $9 $17 $12
+lable1144: or $21 $10 $14
+lable1145: or $11 $8 $12
+lable1146: lw $16 4($0)
+lable1147: sh $16 14($0)
+lable1148: lh $19 12($0)
+lable1149: and $8 $23 $19
+lable1150: ori $13 $13 1
+lable1151: multu $9 $13
+lable1152: sub $19 $21 $17
+lable1153: lb $21 0($0)
+lable1154: mfhi $9
+lable1155: mfhi $11
+lable1156: slt $12 $9 $20
+lable1157: or $16 $13 $22
+lable1158: andi $16 $11 20159
+lable1159: sltu $23 $15 $15
+lable1160: addi $12 $10 47023
+lable1161: sltu $20 $17 $23
+lable1162: add $20 $14 $11
+lable1163: sb $20 10($0)
+lable1164: ori $13 $13 1
+lable1165: mult $12 $13
+lable1166: ori $15 $21 54161
+lable1167: mflo $12
+lable1168: sltu $19 $11 $8
+lable1169: sh $13 4($0)
+lable1170: or $16 $9 $19
+lable1171: lh $12 8($0)
+lable1172: ori $17 $15 60347
+lable1173: and $23 $12 $9
+lable1174: add $13 $22 $19
+lable1175: addi $16 $21 64153
+lable1176: sw $13 4($0)
+lable1177: mfhi $23
+lable1178: addi $21 $15 16040
+lable1179: or $11 $23 $18
+lable1180: ori $16 $10 61921
+lable1181: sw $21 0($0)
+lable1182: andi $23 $18 54484
+lable1183: sw $16 8($0)
+lable1184: lh $11 2($0)
+lable1185: or $10 $21 $10
+lable1186: lh $11 0($0)
+lable1187: lui $18 31585
+lable1188: mflo $23
+lable1189: lh $18 10($0)
+lable1190: ori $12 $12 1
+lable1191: multu $15 $12
+lable1192: sh $13 2($0)
+lable1193: mflo $15
+lable1194: add $9 $21 $13
+lable1195: lui $9 45553
+lable1196: sub $14 $17 $23
+lable1197: sw $14 8($0)
+lable1198: lw $16 8($0)
+lable1199: and $21 $23 $11
+lable1200: and $20 $19 $16
+lable1201: mfhi $11
+lable1202: add $15 $12 $8
+lable1203: add $8 $9 $18
+lable1204: or $18 $11 $20
+lable1205: lb $17 13($0)
+lable1206: sltu $20 $19 $14
+lable1207: andi $13 $20 32718
+lable1208: andi $10 $17 13467
+lable1209: or $18 $8 $20
+lable1210: addi $16 $16 36434
+lable1211: slt $10 $11 $18
+lable1212: mflo $18
+lable1213: sw $21 12($0)
+lable1214: lw $11 12($0)
+lable1215: sltu $20 $18 $17
+lable1216: lh $21 0($0)
+lable1217: or $23 $16 $15
+lable1218: ori $15 $11 61639
+lable1219: lui $21 55366
+lable1220: lb $22 14($0)
+lable1221: addi $16 $14 468
+lable1222: mfhi $15
+lable1223: sh $22 6($0)
+lable1224: or $9 $16 $10
+lable1225: lh $15 2($0)
+lable1226: lh $20 2($0)
+lable1227: or $18 $9 $8
+lable1228: add $10 $16 $19
+lable1229: sw $21 12($0)
+lable1230: ori $9 $10 36645
+lable1231: lw $11 8($0)
+lable1232: sw $16 4($0)
+lable1233: lh $17 2($0)
+lable1234: ori $20 $11 21728
+lable1235: ori $23 $23 1
+lable1236: mult $13 $23
+lable1237: lui $22 35475
+lable1238: or $8 $10 $21
+lable1239: mfhi $13
+lable1240: ori $23 $23 1
+lable1241: div $22 $23
+lable1242: sub $13 $14 $23
+lable1243: mflo $22

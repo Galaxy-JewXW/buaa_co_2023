@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/mips.v" Line 105: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/mips.v" Line 199: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/mips.v" Line 266: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/mips.v" Line 319: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/stall_handle.v" Line 47: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/stall_handle.v" Line 79: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5v1/stall_handle.v" Line 109: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+</messages>
+

@@ -1,0 +1,3 @@
+WARNING:HDLCompiler:267 - "cpu.v" Line 392: Cannot find port D_Instr on this module
+ERROR:HDLCompiler:25 - "cpu.v" Line 397: Module <ID> does not have a port named <D_Instr>.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

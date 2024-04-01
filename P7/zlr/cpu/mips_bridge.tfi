@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+mips_bridge instance_name (
+    .m_data_addr(m_data_addr), 
+    .m_data_wdata(m_data_wdata), 
+    .m_data_byteen(m_data_byteen), 
+    .m_data_rdata(m_data_rdata), 
+    .m_tmp_data_addr(m_tmp_data_addr), 
+    .m_tmp_data_wdata(m_tmp_data_wdata), 
+    .m_tmp_data_byteen(m_tmp_data_byteen), 
+    .m_tmp_data_rdata(m_tmp_data_rdata), 
+    .timer0_addr(timer0_addr), 
+    .timer0_we(timer0_we), 
+    .timer0_wd(timer0_wd), 
+    .tmier0_rd(tmier0_rd), 
+    .timer1_addr(timer1_addr), 
+    .timer1_we(timer1_we), 
+    .timer1_wd(timer1_wd), 
+    .timer1_rd(timer1_rd)
+    );
+
+

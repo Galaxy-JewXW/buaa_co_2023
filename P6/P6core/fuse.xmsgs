@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 146: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 248: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 360: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 380: Port <arg fmt="%s" index="1">DMWrEn</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/mips.v" Line 431: Port <arg fmt="%s" index="1">rt</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" Line 19: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" Line 51: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/BUAA_Undergraduate/23-24autumn/CO_hw/P6/P6core/stall.v" Line 77: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+</messages>
+

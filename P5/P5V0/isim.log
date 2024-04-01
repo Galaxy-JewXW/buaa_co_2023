@@ -1,0 +1,49 @@
+ISim log file
+Running: D:\BUAA_Undergraduate\23-24autumn\CO_hw\P5\P5V0\tb_mips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5V0/tb_mips_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $16 <= f1230000
+                  15@00003004: $16 <= f1233f21
+                  17@00003008: $17 <= 45670000
+                  19@0000300c: $17 <= 45677465
+                  21@00003010: $18 <= 89ab0000
+                  23@00003014: $18 <= 89abb89a
+                  25@00003018: $19 <= cdef0000
+                  27@0000301c: $19 <= cdefcfed
+                  29@00003020: $ 8 <= 00000004
+                  29@00003024: *00000000 <= f1233f21
+                  31@00003028: *00000004 <= 45677465
+                  33@0000302c: *00000008 <= 89abb89a
+                  37@00003030: $ 8 <= 00000008
+                  39@00003034: $25 <= 89abb89a
+                  41@00003038: $24 <= 45677465
+                  43@0000303c: $ 8 <= 00000014
+                  43@00003040: *0000000c <= cdefcfed
+                  47@00003044: $ 8 <= 00000013
+                  47@00003048: *00000012 <= 74650000
+                  49@0000304c: *00000014 <= 0000b89a
+                  53@00003050: $ 8 <= 00000019
+                  53@00003054: *00000018 <= 000000ed
+                  55@00003058: *00000019 <= 000065ed
+                  57@0000305c: *0000001a <= 009a65ed
+                  59@00003060: *0000001b <= 219a65ed
+                  63@00003064: $ 8 <= 00000002
+                  65@00003068: $ 9 <= 00000021
+                  67@0000306c: $11 <= 0000003f
+                  69@00003070: $ 9 <= 00000023
+                  71@00003074: $10 <= fffffff1
+                  73@00003078: $ 8 <= 00000013
+                  75@0000307c: $10 <= 00007465
+                  77@00003080: $13 <= ffffb89a
+Stopped at time : 104 ns : File "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P5/P5V0/tb_mips.v" Line 47

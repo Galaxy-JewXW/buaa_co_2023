@@ -1,0 +1,63 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/mips_txt_isim_beh.exe -prj D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 32
+Turning on mult-threading, number of parallel sub-compilation jobs: 64 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/control.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/stall.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/M_DE.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/M_BE.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/MW_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/mips_CP0.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/F_PC.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/FD_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/E_MDU.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/E_ALU.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/EM_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/D_NPC.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/D_GRF.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/D_EXT.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/D_CMP.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/DE_REG.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/mips_Bridge.v" into library work
+Analyzing Verilog file "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "mips_CPU.v" Line 182: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_CPU.v" Line 241: Port F_DelaySlot is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_CPU.v" Line 308: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_CPU.v" Line 448: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_CPU.v" Line 581: Port rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/stall.v" Line 20: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/stall.v" Line 57: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/stall.v" Line 89: Port b_jump is not connected to this instance
+Completed static elaboration
+Compiling module control
+Compiling module stall
+Compiling module F_PC
+Compiling module FD_REG
+Compiling module D_GRF
+Compiling module D_EXT
+Compiling module D_CMP
+Compiling module D_NPC
+Compiling module DE_REG
+Compiling module E_ALU
+Compiling module E_MDU
+Compiling module EM_REG
+Compiling module M_BE
+Compiling module M_DE
+Compiling module CP0
+Compiling module MW_REG
+Compiling module mips_CPU
+Compiling module Bridge
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 22 Verilog Units
+Built simulation executable D:/BUAA_Undergraduate/23-24autumn/CO_hw/P7/P7stand/mips_txt_isim_beh.exe
+Fuse Memory Usage: 36020 KB
+Fuse CPU Usage: 155 ms

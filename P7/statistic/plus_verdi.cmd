@@ -1,0 +1,1 @@
+java -jar mars.jar test.asm db mc CompactDataAtZero col2

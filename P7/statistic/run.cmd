@@ -1,0 +1,1 @@
+java -jar mars.jar db mc CompactDataAtZero a dump .text HexText ../mips/code.txt test.asm>mips_log.txt

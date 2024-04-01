@@ -1,0 +1,729 @@
+sub $31,$31,$31
+label0: subu $3,$2,$1
+label1: ori $2,$0,43342
+label2: lui $3,38903
+label3: lw $31,1164($0)
+label4: nop
+label5: lui $1,16692
+label6: lui $31,58426
+label7: lw $0,2680($0)
+label8: ori $0,$3,12795
+label9: ori $3,$1,39792
+label10: lw $3,3276($0)
+label11: sw $31,3416($0)
+label12: ori $31,$2,34158
+label13: subu $3,$0,$31
+label14: ori $1,$0,16149
+label15: addu $3,$31,$0
+label16: subu $2,$2,$2
+label17: lui $0,36095
+label18: ori $0,$1,35519
+label19: nop
+label20: ori $3,$1,20053
+label21: nop
+label22: lui $3,47795
+label23: ori $3,$2,48765
+label24: addu $2,$3,$31
+label25: addu $3,$2,$2
+label26: addu $0,$2,$1
+label27: sw $31,2448($0)
+label28: sw $0,68($0)
+label29: ori $3,$1,30317
+label30: lw $0,3136($0)
+label31: lw $2,1016($0)
+label32: subu $0,$2,$1
+label33: lw $2,3288($0)
+label34: addu $31,$1,$3
+label35: lui $2,9446
+label36: sw $2,3520($0)
+label37: subu $31,$2,$31
+label38: sw $31,756($0)
+label39: sw $2,2628($0)
+label40: ori $1,$3,33401
+label41: subu $0,$3,$1
+label42: lui $0,16726
+label43: ori $31,$0,32708
+label44: ori $0,$3,8563
+label45: lui $1,24650
+label46: addu $31,$2,$31
+label47: ori $31,$1,51775
+label48: sw $31,1912($0)
+label49: lui $2,39496
+label50: nop
+label51: lui $1,42475
+label52: nop
+label53: sw $1,2904($0)
+label54: subu $1,$31,$3
+label55: lw $0,1820($0)
+label56: addu $31,$1,$2
+label57: addu $0,$2,$3
+label58: ori $2,$1,21480
+label59: ori $0,$3,2262
+label60: nop
+label61: lui $31,21409
+label62: ori $1,$0,35114
+label63: subu $31,$3,$31
+label64: lui $31,45917
+label65: lw $1,3556($0)
+label66: nop
+label67: lw $0,1932($0)
+label68: ori $3,$3,23907
+label69: sw $31,3136($0)
+label70: lui $0,47228
+label71: lui $3,29200
+label72: nop
+label73: sw $3,3360($0)
+label74: lw $31,2752($0)
+label75: ori $1,$1,12935
+label76: lw $1,368($0)
+label77: sw $0,1508($0)
+label78: lui $3,32953
+label79: nop
+label80: subu $3,$1,$31
+label81: addu $1,$3,$31
+label82: ori $1,$3,29707
+label83: lw $1,2720($0)
+label84: ori $0,$1,36148
+label85: addu $2,$0,$31
+label86: addu $3,$0,$31
+label87: lui $0,41530
+label88: sw $0,888($0)
+label89: lui $3,42794
+label90: ori $31,$31,52367
+label91: addu $31,$31,$0
+label92: lw $1,1688($0)
+label93: lw $0,1664($0)
+label94: lw $1,1948($0)
+label95: ori $2,$2,34118
+label96: addu $0,$2,$31
+label97: lw $0,1604($0)
+label98: subu $3,$31,$3
+label99: sw $2,1232($0)
+label100: nop
+label101: sw $2,1896($0)
+label102: lw $31,3648($0)
+label103: sw $1,848($0)
+label104: ori $3,$2,24968
+label105: lw $31,768($0)
+label106: subu $3,$1,$3
+label107: subu $31,$0,$0
+label108: ori $31,$0,10495
+label109: lui $3,31304
+label110: ori $31,$2,9821
+label111: addu $31,$0,$31
+label112: subu $31,$0,$0
+label113: addu $1,$31,$0
+label114: sw $2,1984($0)
+label115: sw $2,1404($0)
+label116: ori $0,$3,8372
+label117: addu $0,$3,$0
+label118: ori $2,$31,8073
+label119: addu $2,$0,$1
+label120: lw $31,1604($0)
+label121: ori $3,$1,32924
+label122: addu $2,$31,$3
+label123: lui $3,9921
+label124: lui $0,16608
+label125: ori $1,$3,31820
+label126: sw $1,1808($0)
+label127: addu $3,$1,$1
+label128: ori $2,$0,50125
+label129: addu $2,$31,$0
+label130: subu $31,$1,$3
+label131: addu $0,$31,$1
+label132: sw $1,744($0)
+label133: lw $3,3844($0)
+label134: addu $3,$31,$3
+label135: sw $31,956($0)
+label136: lw $31,1440($0)
+label137: lui $31,10328
+label138: nop
+label139: subu $1,$31,$1
+label140: subu $2,$2,$3
+label141: subu $31,$31,$3
+label142: addu $31,$3,$2
+label143: subu $31,$0,$3
+label144: lui $1,51423
+label145: ori $1,$31,2420
+label146: lw $1,3120($0)
+label147: nop
+label148: nop
+label149: addu $3,$0,$0
+label150: lui $0,27696
+label151: addu $31,$0,$3
+label152: ori $3,$0,41582
+label153: nop
+label154: lui $1,29436
+label155: ori $31,$1,33129
+label156: sw $2,3768($0)
+label157: ori $31,$1,34905
+label158: sw $3,1504($0)
+label159: addu $2,$1,$0
+label160: ori $1,$3,40856
+label161: addu $3,$0,$2
+label162: nop
+label163: addu $3,$1,$0
+label164: lw $0,3040($0)
+label165: ori $3,$3,22107
+label166: addu $3,$3,$31
+label167: subu $1,$0,$1
+label168: ori $2,$3,48305
+label169: ori $2,$3,35882
+label170: addu $31,$3,$1
+label171: addu $3,$2,$1
+label172: lw $2,4012($0)
+label173: sw $0,2604($0)
+label174: addu $1,$3,$3
+label175: lui $2,30418
+label176: lw $1,3664($0)
+label177: lw $1,728($0)
+label178: ori $0,$1,27445
+label179: lw $1,3576($0)
+label180: ori $0,$3,30126
+label181: ori $1,$3,56975
+label182: nop
+label183: nop
+label184: lw $31,1628($0)
+label185: lui $2,35266
+label186: addu $0,$31,$1
+label187: addu $1,$2,$0
+label188: lw $2,868($0)
+label189: sw $2,3576($0)
+label190: sw $3,3224($0)
+label191: lui $1,50829
+label192: lui $31,3216
+label193: nop
+label194: sw $1,2588($0)
+label195: addu $2,$2,$2
+label196: lui $3,31192
+label197: subu $1,$31,$2
+label198: sw $31,2196($0)
+label199: addu $1,$1,$2
+label200: subu $1,$0,$3
+label201: subu $2,$0,$31
+label202: addu $31,$31,$31
+label203: addu $2,$1,$3
+label204: lui $31,16612
+label205: addu $0,$31,$3
+label206: sw $1,1964($0)
+label207: lw $1,500($0)
+label208: sw $3,2888($0)
+label209: nop
+label210: nop
+label211: lw $3,2676($0)
+label212: ori $31,$2,6502
+label213: ori $1,$0,28855
+label214: nop
+label215: lw $31,424($0)
+label216: nop
+label217: lw $31,532($0)
+label218: addu $2,$31,$3
+label219: subu $3,$1,$2
+label220: addu $0,$2,$0
+label221: ori $1,$1,31127
+label222: lui $31,37991
+label223: lui $1,19799
+label224: lw $3,1136($0)
+label225: lw $1,716($0)
+label226: sw $31,3496($0)
+label227: ori $0,$0,27050
+label228: nop
+label229: nop
+label230: ori $0,$31,33239
+label231: sw $2,3804($0)
+label232: sw $31,1916($0)
+label233: addu $2,$0,$1
+label234: addu $0,$2,$31
+label235: nop
+label236: sw $0,3832($0)
+label237: sw $1,1244($0)
+label238: sw $31,3852($0)
+label239: lui $3,11166
+label240: sw $3,2360($0)
+label241: lui $3,13040
+label242: ori $31,$3,8791
+label243: subu $0,$1,$2
+label244: ori $0,$3,42116
+label245: lui $1,11753
+label246: sw $0,1864($0)
+label247: lui $1,20852
+label248: subu $3,$31,$31
+label249: subu $31,$0,$31
+label250: lw $31,656($0)
+label251: lw $3,268($0)
+label252: sw $2,1788($0)
+label253: nop
+label254: addu $0,$2,$1
+label255: lw $3,2088($0)
+label256: nop
+label257: subu $1,$31,$2
+label258: lui $1,50917
+label259: lw $31,180($0)
+label260: addu $3,$31,$3
+label261: lw $31,3716($0)
+label262: ori $31,$31,22712
+label263: lw $2,4008($0)
+label264: ori $2,$1,34225
+label265: lw $0,3052($0)
+label266: lui $1,28661
+label267: sw $2,3088($0)
+label268: lui $2,22156
+label269: addu $2,$0,$1
+label270: nop
+label271: sw $2,3740($0)
+label272: lw $31,1540($0)
+label273: addu $1,$0,$31
+label274: lui $2,27357
+label275: lw $2,3596($0)
+label276: addu $1,$31,$3
+label277: sw $0,3676($0)
+label278: ori $31,$1,25616
+label279: sw $3,3832($0)
+label280: lw $31,132($0)
+label281: lw $2,1272($0)
+label282: subu $31,$3,$3
+label283: nop
+label284: addu $31,$2,$0
+label285: addu $2,$1,$2
+label286: sw $1,1700($0)
+label287: ori $1,$0,19034
+label288: subu $2,$1,$1
+label289: nop
+label290: lw $2,872($0)
+label291: sw $2,1676($0)
+label292: ori $1,$3,11040
+label293: lw $31,3448($0)
+label294: ori $2,$31,54009
+label295: addu $31,$0,$2
+label296: addu $2,$3,$2
+label297: nop
+label298: ori $3,$0,26027
+label299: subu $1,$0,$2
+label300: jal label516
+label301: ori $31,$0,38718
+label302: addu $3,$1,$0
+label303: sw $2,100($0)
+label304: ori $3,$31,41174
+label305: lui $3,40806
+label306: jal label44
+label307: ori $1,$1,35191
+label308: sw $1,276($0)
+label309: ori $0,$3,16314
+label310: nop
+label311: subu $2,$31,$2
+label312: addu $2,$0,$0
+label313: beq $0,$31,label552
+label314: addu $2,$2,$2
+label315: beq $1,$0,label180
+label316: lui $3,41277
+label317: beq $31,$2,label536
+label318: lw $0,2748($0)
+label319: subu $0,$3,$31
+label320: subu $2,$31,$3
+label321: sw $0,2468($0)
+label322: subu $2,$31,$3
+label323: nop
+label324: lui $0,27891
+label325: sw $1,2796($0)
+label326: ori $1,$31,31391
+label327: ori $31,$2,30533
+label328: lui $3,29990
+label329: addu $1,$0,$0
+label330: jal label250
+label331: lw $2,208($0)
+label332: jal label18
+label333: ori $0,$1,38626
+label334: beq $1,$3,label506
+label335: addu $1,$2,$31
+label336: nop
+label337: lui $1,38990
+label338: lw $3,872($0)
+label339: subu $0,$0,$2
+label340: lw $2,680($0)
+label341: jal label344
+label342: nop
+label343: subu $0,$3,$0
+label344: j label220
+label345: lui $31,40258
+label346: subu $0,$3,$3
+label347: addu $2,$2,$0
+label348: lw $31,2520($0)
+label349: lw $0,3384($0)
+label350: addu $2,$1,$2
+label351: sw $3,1224($0)
+label352: subu $1,$31,$0
+label353: j label165
+label354: addu $3,$0,$1
+label355: nop
+label356: lw $1,3636($0)
+label357: jal label612
+label358: nop
+label359: jal label538
+label360: sw $1,3292($0)
+label361: jal label234
+label362: lui $2,56075
+label363: lui $3,44360
+label364: lw $2,1300($0)
+label365: jal label504
+label366: lui $3,40869
+label367: j label202
+label368: subu $3,$3,$0
+label369: ori $31,$3,3632
+label370: nop
+label371: ori $0,$1,29933
+label372: addu $1,$2,$1
+label373: j label609
+label374: nop
+label375: ori $0,$3,9122
+label376: addu $31,$3,$0
+label377: lw $1,3104($0)
+label378: sw $0,1280($0)
+label379: nop
+label380: jal label218
+label381: lui $3,27098
+label382: beq $2,$2,label50
+label383: sw $2,348($0)
+label384: beq $3,$31,label323
+label385: nop
+label386: subu $2,$3,$1
+label387: lui $1,47553
+label388: lw $3,1492($0)
+label389: ori $3,$0,32897
+label390: jal label401
+label391: ori $1,$1,26379
+label392: addu $3,$2,$0
+label393: j label528
+label394: subu $0,$0,$3
+label395: lw $1,2256($0)
+label396: jal label90
+label397: sw $1,2292($0)
+label398: nop
+label399: sw $2,988($0)
+label400: jal label124
+label401: ori $2,$31,43824
+label402: beq $0,$31,label113
+label403: addu $0,$2,$2
+label404: sw $0,12($0)
+label405: jal label257
+label406: ori $3,$2,11706
+label407: subu $3,$0,$1
+label408: nop
+label409: j label589
+label410: addu $0,$3,$2
+label411: lui $0,29560
+label412: subu $1,$1,$1
+label413: nop
+label414: subu $2,$31,$1
+label415: addu $31,$3,$1
+label416: lui $0,46591
+label417: j label299
+label418: sw $2,2852($0)
+label419: nop
+label420: beq $31,$0,label610
+label421: lui $0,38287
+label422: lui $31,26389
+label423: beq $31,$0,label13
+label424: addu $31,$31,$3
+label425: sw $0,1924($0)
+label426: beq $31,$2,label457
+label427: addu $2,$31,$0
+label428: j label607
+label429: lui $2,51710
+label430: subu $2,$0,$3
+label431: lw $31,140($0)
+label432: j label57
+label433: lw $0,1008($0)
+label434: beq $1,$1,label474
+label435: nop
+label436: addu $1,$31,$1
+label437: jal label321
+label438: lw $3,3628($0)
+label439: lw $0,144($0)
+label440: j label4
+label441: ori $0,$0,38997
+label442: ori $3,$0,38113
+label443: nop
+label444: sw $1,3908($0)
+label445: beq $2,$1,label99
+label446: subu $2,$0,$3
+label447: j label228
+label448: ori $1,$31,34656
+label449: lui $31,51442
+label450: nop
+label451: jal label488
+label452: sw $31,2136($0)
+label453: ori $1,$31,55554
+label454: nop
+label455: beq $2,$31,label337
+label456: sw $2,3700($0)
+label457: sw $1,3976($0)
+label458: lw $3,2152($0)
+label459: jal label491
+label460: addu $31,$31,$31
+label461: beq $3,$0,label415
+label462: sw $0,3796($0)
+label463: sw $2,1936($0)
+label464: addu $3,$2,$1
+label465: lw $2,376($0)
+label466: jal label464
+label467: subu $2,$31,$0
+label468: nop
+label469: subu $31,$1,$1
+label470: nop
+label471: beq $31,$1,label343
+label472: lw $31,1236($0)
+label473: addu $31,$3,$31
+label474: j label166
+label475: nop
+label476: sw $1,3024($0)
+label477: sw $2,2876($0)
+label478: beq $31,$31,label203
+label479: lui $2,33263
+label480: jal label95
+label481: subu $31,$31,$31
+label482: sw $0,1728($0)
+label483: nop
+label484: j label507
+label485: sw $31,3488($0)
+label486: beq $1,$31,label411
+label487: nop
+label488: subu $2,$0,$3
+label489: subu $31,$2,$1
+label490: j label349
+label491: sw $1,204($0)
+label492: beq $0,$3,label192
+label493: nop
+label494: sw $1,1088($0)
+label495: ori $31,$1,14645
+label496: nop
+label497: addu $3,$0,$2
+label498: beq $31,$1,label422
+label499: nop
+label500: nop
+label501: j label17
+label502: sw $31,852($0)
+label503: lui $1,37381
+label504: nop
+label505: lui $2,27329
+label506: sw $2,4076($0)
+label507: nop
+label508: addu $0,$0,$31
+label509: beq $3,$31,label120
+label510: ori $1,$31,23146
+label511: lui $0,35532
+label512: j label265
+label513: lw $1,2660($0)
+label514: ori $3,$3,60768
+label515: sw $1,2216($0)
+label516: j label476
+label517: addu $3,$1,$3
+label518: addu $1,$3,$0
+label519: beq $1,$1,label374
+label520: lui $3,53188
+label521: beq $2,$31,label173
+label522: lui $1,15174
+label523: beq $1,$0,label23
+label524: subu $1,$1,$1
+label525: lw $3,520($0)
+label526: subu $3,$1,$3
+label527: lui $3,41937
+label528: nop
+label529: lw $31,380($0)
+label530: nop
+label531: j label586
+label532: lui $3,20048
+label533: j label395
+label534: lw $2,1300($0)
+label535: nop
+label536: jal label169
+label537: lw $0,3380($0)
+label538: nop
+label539: lw $31,1196($0)
+label540: beq $3,$3,label77
+label541: nop
+label542: sw $0,2876($0)
+label543: j label109
+label544: lui $31,40730
+label545: ori $1,$1,32041
+label546: ori $2,$31,10296
+label547: sw $2,452($0)
+label548: beq $1,$3,label25
+label549: subu $0,$31,$1
+label550: beq $0,$2,label489
+label551: lw $2,3592($0)
+label552: beq $1,$1,label47
+label553: subu $0,$2,$31
+label554: beq $2,$31,label620
+label555: addu $0,$1,$2
+label556: beq $31,$2,label401
+label557: lw $2,2020($0)
+label558: addu $1,$31,$2
+label559: jal label532
+label560: lui $31,29360
+label561: j label6
+label562: addu $0,$31,$2
+label563: subu $2,$3,$0
+label564: beq $1,$31,label383
+label565: ori $31,$2,19534
+label566: beq $31,$2,label275
+label567: ori $1,$1,42073
+label568: sw $31,1204($0)
+label569: sw $2,704($0)
+label570: lui $31,12265
+label571: beq $31,$31,label59
+label572: lw $31,472($0)
+label573: subu $31,$0,$0
+label574: ori $0,$3,8523
+label575: sw $3,1592($0)
+label576: jal label90
+label577: lw $1,2208($0)
+label578: nop
+label579: lui $0,42493
+label580: j label8
+label581: sw $3,1980($0)
+label582: beq $0,$31,label631
+label583: sw $2,528($0)
+label584: subu $31,$3,$31
+label585: lw $0,3764($0)
+label586: subu $0,$3,$0
+label587: jal label284
+label588: ori $0,$2,38311
+label589: beq $2,$0,label52
+label590: lw $3,932($0)
+label591: sw $1,724($0)
+label592: j label286
+label593: addu $31,$3,$2
+label594: beq $31,$3,label21
+label595: lw $1,1688($0)
+label596: beq $31,$1,label198
+label597: lui $0,25258
+label598: sw $31,1396($0)
+label599: lui $2,39503
+label600: subu $1,$0,$0
+label601: nop
+label602: beq $31,$2,label269
+label603: nop
+label604: beq $0,$31,label247
+label605: nop
+label606: addu $2,$0,$2
+label607: addu $2,$3,$1
+label608: nop
+label609: subu $2,$31,$31
+label610: nop
+label611: lui $1,12045
+label612: sw $31,3128($0)
+label613: addu $2,$1,$31
+label614: j label514
+label615: lw $3,896($0)
+label616: nop
+label617: jal label28
+label618: lw $1,1384($0)
+label619: ori $31,$3,18532
+label620: addu $31,$0,$2
+label621: lui $31,9141
+label622: sw $31,700($0)
+label623: lui $31,29697
+label624: beq $1,$1,label612
+label625: ori $31,$3,2614
+label626: nop
+label627: jal label613
+label628: lw $0,3444($0)
+label629: beq $3,$31,label31
+label630: lui $2,12309
+label631: beq $3,$0,label388
+label632: sw $0,1568($0)
+label633: beq $0,$0,label61
+label634: nop
+label635: sw $3,2240($0)
+label636: nop
+label637: j label280
+label638: ori $2,$31,55614
+label639: beq $1,$0,label290
+label640: sw $31,2248($0)
+label641: lui $0,41506
+label642: beq $1,$2,label152
+label643: lui $1,24006
+label644: beq $1,$2,label612
+label645: ori $2,$2,27709
+label646: lw $31,2708($0)
+label647: nop
+label648: sw $2,360($0)
+label649: j label499
+label650: addu $31,$2,$0
+label651: beq $3,$0,label190
+label652: lw $1,3148($0)
+label653: nop
+label654: ori $3,$3,25969
+label655: subu $3,$2,$3
+label656: beq $31,$1,label18
+label657: addu $2,$2,$31
+label658: subu $31,$3,$0
+label659: beq $0,$2,label236
+label660: subu $31,$2,$3
+label661: sw $2,2260($0)
+label662: sw $31,1504($0)
+label663: addu $1,$3,$1
+label664: ori $1,$3,23922
+label665: ori $2,$31,38660
+label666: addu $31,$2,$31
+label667: lw $2,1956($0)
+label668: subu $1,$2,$0
+label669: j label379
+label670: lw $2,3480($0)
+label671: nop
+label672: sw $3,3584($0)
+label673: sw $2,2032($0)
+label674: subu $0,$0,$1
+label675: subu $1,$2,$31
+label676: beq $3,$0,label413
+label677: addu $0,$2,$3
+label678: j label92
+label679: sw $31,760($0)
+label680: j label186
+label681: addu $1,$31,$0
+label682: j label278
+label683: ori $3,$31,13361
+label684: sw $31,3284($0)
+label685: lw $31,316($0)
+label686: ori $1,$31,38505
+label687: beq $0,$2,label511
+label688: subu $2,$1,$0
+label689: beq $1,$3,label73
+label690: lw $31,1924($0)
+label691: beq $1,$1,label52
+label692: ori $2,$3,38595
+label693: nop
+label694: nop
+label695: nop
+label696: lui $31,38501
+label697: sw $2,2996($0)
+label698: ori $1,$0,50450
+label699: ori $0,$31,20925
+label700: jal label255
+label701: ori $1,$2,64099
+label702: subu $31,$2,$3
+label703: addu $0,$2,$1
+label704: lw $1,3268($0)
+label705: lw $1,2868($0)
+label706: beq $0,$1,label398
+label707: lui $31,46539
+label708: beq $3,$1,label184
+label709: sw $0,1952($0)
+label710: subu $3,$3,$1
+label711: jal label304
+label712: lw $2,1040($0)
+label713: lui $3,17631
+label714: addu $2,$3,$1
+label715: ori $1,$2,18072
+label716: beq $3,$3,label401
+label717: sw $2,1464($0)
+label718: lui $1,28127
+label719: lw $2,2696($0)
+label720: lui $31,41764
+label721: beq $1,$2,label640
+label722: ori $0,$1,19102
+label723: nop
+label724: subu $31,$3,$31
+label725: nop
+label726: beq $2,$31,label358
+label727: ori $31,$31,13045

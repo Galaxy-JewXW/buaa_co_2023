@@ -1,0 +1,36 @@
+ISim log file
+Running: C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P7\cpu\mips_txt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/fysszlr/Desktop/The_endless_source_of_evil_comes_from_the_whispers_of_hell/Second_year_up/CO/P7/cpu/mips_txt_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance _cpu/d_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/e_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/m_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/w_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 9 <= 00007f00
+                  46@00003008: $ 4 <= 00000009
+                  50@0000300c: $ 7 <= 0000fc01
+                  54@00003010: $ 5 <= 00000002
+                  74@00003024: $29 <= 00001000
+                  78@00003028: $ 3 <= 00010000
+                  98@00004180: $ 1 <= 00000400
+                 102@00004184: $18 <= 7d047f00
+                 106@00004188: $17 <= 00000000
+                 110@0000418c: $ 3 <= 00007f00
+                 122@0000302c: $ 2 <= 00020000
+                 126@00003030: $17 <= 00030000
+                 130@00003034: $16 <= 00040000
+                 150@00004180: $ 1 <= 00000400
+                 154@00004184: $18 <= 7d047f00
+                 158@00004188: $17 <= 00000000
+                 162@0000418c: $ 3 <= 00007f00

@@ -1,0 +1,292 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xa3s50-4-vqg100
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "control.v" in library work
+Compiling verilog include file "def.v"
+Compiling verilog file "stall.v" in library work
+Compiling verilog include file "def.v"
+Module <control> compiled
+Compiling verilog file "M_DM.v" in library work
+Compiling verilog include file "def.v"
+Module <stall> compiled
+Compiling verilog file "MW_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <M_DM> compiled
+Compiling verilog file "F_IFU.v" in library work
+Compiling verilog include file "def.v"
+Module <MW_PASS> compiled
+Compiling verilog file "FD_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <F_IFU> compiled
+Compiling verilog file "E_ALU.v" in library work
+Compiling verilog include file "def.v"
+Module <FD_PASS> compiled
+Compiling verilog file "EM_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <E_ALU> compiled
+Compiling verilog file "D_NPC.v" in library work
+Compiling verilog include file "def.v"
+Module <EM_PASS> compiled
+Compiling verilog file "D_GRF.v" in library work
+Compiling verilog include file "def.v"
+Module <D_NPC> compiled
+Compiling verilog file "D_EXP.v" in library work
+Compiling verilog include file "def.v"
+Module <D_GRF> compiled
+Compiling verilog file "D_CMP.v" in library work
+Compiling verilog include file "def.v"
+Module <D_EXT> compiled
+Compiling verilog file "DE_PASS.v" in library work
+Compiling verilog include file "def.v"
+Module <D_CMP> compiled
+Compiling verilog file "mips.v" in library work
+Compiling verilog include file "def.v"
+Module <DE_PASS> compiled
+Module <mips> compiled
+No errors in compilation
+Analysis of file <"mips.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <mips> in library <work>.
+
+Analyzing hierarchy for module <stall> in library <work>.
+
+Analyzing hierarchy for module <F_IFU> in library <work>.
+
+Analyzing hierarchy for module <FD_PASS> in library <work>.
+
+Analyzing hierarchy for module <control> in library <work>.
+
+Analyzing hierarchy for module <D_GRF> in library <work>.
+
+Analyzing hierarchy for module <D_CMP> in library <work>.
+
+Analyzing hierarchy for module <D_NPC> in library <work>.
+
+Analyzing hierarchy for module <D_EXT> in library <work>.
+
+Analyzing hierarchy for module <DE_PASS> in library <work>.
+
+Analyzing hierarchy for module <E_ALU> in library <work>.
+
+Analyzing hierarchy for module <EM_PASS> in library <work>.
+
+Analyzing hierarchy for module <M_DM> in library <work>.
+
+Analyzing hierarchy for module <MW_PASS> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <mips>.
+WARNING:Xst:852 - "mips.v" line 59: Unconnected input port 'b_jump' of instance 'D_CTRL' is tied to GND.
+Module <mips> is correct for synthesis.
+ 
+Analyzing module <stall> in library <work>.
+WARNING:Xst:852 - "stall.v" line 13: Unconnected input port 'b_jump' of instance 'D_decoder' is tied to GND.
+WARNING:Xst:852 - "stall.v" line 39: Unconnected input port 'b_jump' of instance 'E_decoder' is tied to GND.
+WARNING:Xst:852 - "stall.v" line 54: Unconnected input port 'b_jump' of instance 'M_decoder' is tied to GND.
+Module <stall> is correct for synthesis.
+ 
+Analyzing module <F_IFU> in library <work>.
+INFO:Xst:2546 - "F_IFU.v" line 16: reading initialization file "code.txt".
+WARNING:Xst:2319 - "F_IFU.v" line 16: Signal mem in initial block is partially initialized. The initialization will be ignored.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+Module <F_IFU> is correct for synthesis.
+ 
+Analyzing module <FD_PASS> in library <work>.
+Module <FD_PASS> is correct for synthesis.
+ 
+Analyzing module <control> in library <work>.
+Module <control> is correct for synthesis.
+ 
+Analyzing module <D_GRF> in library <work>.
+WARNING:Xst:2321 - "D_GRF.v" line 27: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "D_GRF.v" line 27: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "D_GRF.v" line 27: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "D_GRF.v" line 27: Parameter 5 is not constant in call of system task $display.
+"D_GRF.v" line 27: $display : %h: $%d <= %h
+Module <D_GRF> is correct for synthesis.
+ 
+Analyzing module <D_CMP> in library <work>.
+Module <D_CMP> is correct for synthesis.
+ 
+Analyzing module <D_NPC> in library <work>.
+Module <D_NPC> is correct for synthesis.
+ 
+Analyzing module <D_EXT> in library <work>.
+Module <D_EXT> is correct for synthesis.
+ 
+Analyzing module <DE_PASS> in library <work>.
+WARNING:Xst:2321 - "DE_PASS.v" line 39: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "DE_PASS.v" line 39: Parameter 3 is not constant in call of system task $display.
+"DE_PASS.v" line 39: $display : %h
+Module <DE_PASS> is correct for synthesis.
+ 
+Analyzing module <E_ALU> in library <work>.
+Module <E_ALU> is correct for synthesis.
+ 
+Analyzing module <EM_PASS> in library <work>.
+Module <EM_PASS> is correct for synthesis.
+ 
+Analyzing module <M_DM> in library <work>.
+ERROR:Xst:2545 - "M_DM.v" line 36: Variable index is not supported in signal.
+WARNING:Xst:2321 - "M_DM.v" line 38: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 38: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 38: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 38: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 38: $display : %h: *%h <= %h
+WARNING:Xst:2321 - "M_DM.v" line 39: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 39: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 39: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 39: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 39: $display : %h: *%h <= %h
+WARNING:Xst:2321 - "M_DM.v" line 40: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 40: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 40: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 40: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 40: $display : %h: *%h <= %h
+WARNING:Xst:2321 - "M_DM.v" line 41: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 41: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 41: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 41: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 41: $display : %h: *%h <= %h
+WARNING:Xst:2321 - "M_DM.v" line 47: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 47: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 47: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 47: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 47: $display : %h: *%h <= %h
+WARNING:Xst:2321 - "M_DM.v" line 48: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 48: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 48: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 48: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 48: $display : %h: *%h <= %h
+WARNING:Xst:2321 - "M_DM.v" line 53: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 53: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 53: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "M_DM.v" line 53: Parameter 5 is not constant in call of system task $display.
+"M_DM.v" line 53: $display : %h: *%h <= %h
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <mem> may be accessed with an index that does not cover the full array size.
+ 
+Found 1 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 4548344 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   39 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+
